@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Surf Info!!!!!</title>
+</head>
+<body>
+
+    {% for forecast in forecasts %}
+        <h3>{{forecast.location}}</h3>
+    {% endfor %}
+    
+</body>
+</html>
